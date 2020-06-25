@@ -18,11 +18,11 @@ namespace RecognizeInk
     {
         // <vars>
         // Add your Ink Recognizer subscription key to your environment variables.
-        static readonly string subscriptionKey = Environment.GetEnvironmentVariable("INK_RECOGNIZER_SUBSCRIPTION_KEY");
+        static readonly string subscriptionKey = Environment.GetEnvironmentVariable("f18cbd4adce041a7aa1740813ed0d68a");
         
         // Add your Ink Recognizer endpoint to your environment variables.
         // For example: <your-custom-subdomain>.cognitiveservices.azure.com
-        static readonly string endpoint = Environment.GetEnvironmentVariable("INK_RECOGNIZER_ENDPOINT");
+        static readonly string endpoint = Environment.GetEnvironmentVariable("https://inkuruk.cognitiveservices.azure.com/");
         static readonly string inkRecognitionUrl = "/inkrecognizer/v1.0-preview/recognize";
 
         // Replace the dataPath string with a path to the JSON formatted ink stroke data.
